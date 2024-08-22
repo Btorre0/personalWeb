@@ -27,6 +27,7 @@ p {
 }
 
 a {
+   font-family: 'Courier New', Courier, monospace;
    display: inline-block;
    background-color: rgb(255, 255, 255);
    color: black;
@@ -36,6 +37,7 @@ a {
    padding: 10px 20px;
    margin-top: 20px;
    transition: 0.5s;
+ 
 }
 
 a:hover {
