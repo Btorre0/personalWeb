@@ -1,6 +1,4 @@
 
-
-
 body {
    display: flex;
    flex-direction: column;
@@ -9,7 +7,7 @@ body {
    margin: 0;
    padding: 0;
    min-height: 100vh;
-   text-align: center;
+   text-align: left;
 }
 
 .content {
@@ -29,28 +27,19 @@ p {
 a {
    font-family: 'Courier New', Courier, monospace;
    display: inline-block;
-   background-color: rgb(255, 255, 255);
+   /* background-color: rgb(255, 255, 255); */
    color: black;
    text-decoration: none;
    text-transform: uppercase;
-   font-weight: 400;
+   font-weight: 500;
    padding: 10px 20px;
-   margin-top: 20px;
-   transition: 0.5s;
+   margin-top: 0.1px;
+   transition: 0.1s;
  
 }
 
 a:hover {
    letter-spacing: 0.10em;
-}
-.nav-links {
-   display: flex;
-   align-items: center;
-   margin-top: 20px;
-}
-
-.nav-links a {
-   margin: 0;
 }
 
 .dot {
