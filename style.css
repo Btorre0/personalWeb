@@ -1,3 +1,38 @@
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+}
+
+nav ul li {
+   margin: 0 10px;
+}
+
+nav ul li:not(:last-child)::after {
+   content: "•";
+   margin-left: 20px;
+   color: black;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+   text-transform: uppercase;
+   font-weight: 500;
+   padding: 10px 20px;
+   transition: 0.1s;
+   display: inline-block;
+}
+
+nav ul li a:hover {
+   transform: scale(1.05);
+}
+
+
+
 
 body {
    display: flex;
@@ -35,7 +70,6 @@ a {
    padding: 10px 20px;
    margin-top: 0.1px;
    transition: 0.1s;
--- 
 }
 
 a:hover {
